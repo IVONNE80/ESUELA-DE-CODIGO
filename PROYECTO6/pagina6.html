@@ -6,42 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css" media="all">
 </head>
-
+<style>
+    .botones_login{
+        background-color:white; 
+        border-radius: 50px
+    }
+    .botones_login:hover{
+        background-color: black;
+        color: white;
+    }
+</style>
 <body>
-    <nav style="text-align: left;">
-        <img src="img/png-transparent-decal-sticker-engraving-maya-civilization-pattern-others-sticker-black-engraving.png"
-            width="40">
-        <a href="#" style="color:black;">ARTE</a>
-        <a href="#" style="color:black;">COLECCIONES</a>
-        <a href="#" style="color:black;">CONOCENOS</a>
-        <button style="background-color:white;">Inicio de Seccion</button>
-        <button style="background-color:black; color:white;">Registrado</button>
-    </nav>
-    <header style=" text-align: center; background-color: rgb(28, 83, 28);">
-        <H1 style="color: white;">UNA EXPERIENCIA</H1>
-        <H1 style="color: white;">TOTALMENTE NUEVA</H1>
-        <H1 style="color: white;">EN EL ARTE</H1>
-        <p style="color: white;">Una tradicion milinaria nos ha acompañado a traves de todo</p>
-        <p style="color: white;">este tiempo. Aprende más...</p>
+    <header style="display: flex; justify-content: space-between;">
+        <div>
+            <nav>
+                <a href="#"><img src="img/pngwing.com.png" style="height: 40px;"></a>
+                <a href="#" style="color:black; ">ARTE</a>
+                <a href="#" style="color:black; ">COLECCIONES</a>
+                <a href="#" style="color:black; ">CONOCENOS</a>
+            </nav>
+        </div>
+        <div>
+            <button class="botones_login">Inicio de Seccion</button>
+            <button class="botones_login">Registrado</button>
+        </div>
     </header>
     <main>
-        <section style=" background-color:rgb(207, 16, 16); display: flex;">
-            <img src="img/alebrijes-en-oaxaca-940x626.jpg" width="300">
-            <div style="text-align:ri;">
+        <section style=" text-align: center; background-color: rgb(28, 83, 28);">
+            <H1 style="color: white;">UNA EXPERIENCIA</H1>
+            <H1 style="color: white;">TOTALMENTE NUEVA</H1>
+            <H1 style="color: white;">EN EL ARTE</H1>
+            <p style="color: white;">Una tradicion milinaria nos ha acompañado a traves de todo</p>
+            <p style="color: white;">este tiempo. Aprende más...</p>
+        </section>
+        <section style=" background-color:rgb(207, 16, 16); display: flex; margin-bottom: 20px;">
+            <div>
+                <img src="img/alebrijes-en-oaxaca-940x626.jpg" style="height: 100%;">
+            </div>
+            <div style="text-align: center; width: 51%;">
                 <h1 style="color: white;">ALEBRIJES</h1>
                 <h1 style="color: white;">MEXICANOS</h1>
                 <p style="color: white;">Tallados en madera cumplen con las más<br>altas exigencias en el diseño</p>
-                <button style="background-color:rgb(207, 16, 16); color: white; border-color: white;">Has tu
+                <button style="background-color:rgb(207, 16, 16); color: white; border-color: white;border-radius: 10px">Has tu
                     pedido</button>
             </div>
         </section>
+
         <section style=" background-color:rgb(207, 16, 16); display: flex; margin-top: 20px;">
             <div style="text-align:ri;">
                 <h1 style="color: white;">CREATIVIDAD E</h1>
                 <h1 style="color: white;">IMAGINACION</h1>
                 <p style="color: white;">Un sueno hecho realidad.</p>
-                <button style="background-color:rgb(207, 16, 16); color: white; border-color: white;">Has tu
+                <button style="background-color:rgb(207, 16, 16); color: white; border-color: white;border-radius: 10px">Has tu
                     pedido</button>
             </div>
             <img src="img/alebrijes-en-oaxaca-940x626.jpg" width="300">
@@ -49,31 +67,31 @@
     </main>
     <footer>
         <nav>
-            <a href='#'>
+            <a href='#spotify'>
                 <img src="img/spo1.png" width="30">
             </a>
-            <a href='#'>
+            <a href='#facebook'>
                 <img src="img/facebook-new.png" width="25">
             </a>
             </a>
-            <a href='#'>
+            <a href='#pinterest'>
                 <img src="img/pinterest.png" width="25">
             </a>
             </a>
-            <a href='#'>
+            <a href='#instagram'>
                 <img src="img/instagram-new.png" width="25">
             </a>
             </a>
-            <a href='#'>
+            <a href='#youtube'>
                 <img src="img/youtube-play.png" width="25">
             </a>
             </a>
-            <a href='#'>
+            <a href='#twitter'>
                 <img src="img/twitter--v1.png" width="25">
             </a>
         </nav>
         <ul>
-            <li>2022 Todos los derechos reservados al arte popular</li>
+            <h6>2022 Todos los derechos reservados al arte popular</h6>
         </ul>
 
     </footer>
