@@ -1,6 +1,6 @@
 header {
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
 h1 {
@@ -15,12 +15,16 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -40px;
 }
+button {
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid 1px;
 
+}
 .botones_login {
     background-color: white;
     border-radius: 50px
 }
-
 .botones_login:hover {
     background-color: black;
     color: white;
@@ -28,4 +32,19 @@ p {
 
 .box {
     border: 1px solid grey;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.link {
+    text-decoration: underline;
+    color: white;
+}
+section {
+    background-color: rgb(168, 9, 9);
+    color: white;
+    text-align: center;
+    height: 100%;
+
 }
