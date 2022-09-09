@@ -1,12 +1,14 @@
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 h1 {
     color: white;
     font-size: 80px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 p {
@@ -14,37 +16,46 @@ p {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -40px;
+    text-align: center;
 }
+
 button {
     border-radius: 50px;
     background-color: transparent;
     border: solid 1px;
 
 }
+
 .botones_login {
     background-color: white;
     border-radius: 50px
 }
+
 .botones_login:hover {
     background-color: black;
     color: white;
 }
 
+.boton_pedido {
+    color: white;
+    border-color: white;
+}
+
+.boton_pedido:hover {
+    background-color: white;
+    color: transparent;
+}
+
 .box {
     border: 1px solid grey;
 }
+
 a {
     text-decoration: none;
     font-weight: bold;
 }
+
 .link {
     text-decoration: underline;
     color: white;
-}
-section {
-    background-color: rgb(168, 9, 9);
-    color: white;
-    text-align: center;
-    height: 100%;
-
 }
